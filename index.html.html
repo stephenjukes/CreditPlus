@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Purchase Options</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Karla&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <template id="purchase-option-template">
+            <li class="purchase-option">
+              <img class="mainImage" />
+              <h3 class="name"></h3>
+              <p class="summary"></p>
+              <ul class="bullets"></ul>
+              <a class="learn-more" href="#">Learn more</a>
+            </li>
+        </template>
+        
+        <div id="container">
+            <header>
+                <div id="introduction">
+                    <h1>Loan Options</h1>
+                    <p>Here at CreditPlus, we mainly broker deals with lenders who propose three types of loans. We always advise our customers what is best for them.</p>
+                </div>
+                <div id="hero">
+                    <img src="images/hero.png" />
+                </div>
+            </header>
+            
+            <ul id="purchase-options"></ul>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

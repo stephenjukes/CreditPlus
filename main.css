@@ -1,0 +1,119 @@
+:root {
+    --credit-plus-pink: #c50088;
+    --credit-plus-blue: #1f3759;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    color: var(--credit-plus-blue);
+}
+
+h1 {
+    font: bold 3.375rem 'Karla', sans-serif;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font: bold 1.5rem sans-serif;
+}
+
+p, li {
+    font: 1.0rem/2.0 Arial, sans-serif;
+}
+
+a {
+    font: 1.0rem/2.0 'Fredoka One', sans-serif;
+    color: var(--credit-plus-pink);
+}
+
+.learn-more:after {
+    content: '';
+    display: inline-block;
+    height: 0.8rem;
+    width: 1.0rem;
+    background-size: cover;
+    background-image: url('images/learn_more.png');
+    margin-left: 0.66rem;
+    vertical-align: middle;
+}
+
+.purchase-option {
+    flex: 1;
+    background: #EEEFF3;
+    list-style: none;
+    border-radius: 0.44rem;
+    margin: 3.375rem 0.66rem;
+    padding: 1.5rem;
+  }
+
+.purchase-option > * {
+    margin: 1.5rem 0;
+}
+
+.purchase-option img {
+    display: block;
+    width: 100%;
+    max-width: 25rem;
+    margin: -3.375rem auto 0;
+}
+
+.purchase-option ul {
+    margin-left: 1.0rem;
+}
+
+.purchase-option li {
+    padding: 0.5rem 0;
+    list-style: none;
+}
+
+.purchase-option li:before {
+    content: '';
+    display: inline-block;
+    height: 1.0rem;
+    width: 1.0rem;
+    background-size: cover;
+    background-image: url('images/check.png');
+    margin-right: 1.5rem;
+}
+
+#container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+header > * {
+  flex: 1;
+  align-self: center;
+  margin: 1.0rem;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#purchase-options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3.375rem 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  header, #purchase-options, .purchase-option {
+    display: block;
+  }
+}
