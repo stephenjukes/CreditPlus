@@ -16,5 +16,5 @@ Time included research and implementation of ...
 * HTML templates
 * Responsiveness using pure flexbox instead of media queries (unsuccessful)
 * Changing icon colours
-* creating transparent backgrounds
-* converting eye dropper result to hex code.
+* Creating transparent backgrounds
+* Converting eye dropper result to hex code.
