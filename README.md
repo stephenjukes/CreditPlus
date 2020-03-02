@@ -1,6 +1,6 @@
 # Comments
 
-<a href="stephenjukes.github.io/CreditPlus/">View in browser here</a>
+<a href="https://stephenjukes.github.io/CreditPlus/">View in browser here</a>
 
 ## HTML templates and Javascript
 
